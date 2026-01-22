@@ -1,4 +1,4 @@
-import e from 'express';
+
 import redis, { createClient } from 'redis'
 
 const client = redis.createClient({
